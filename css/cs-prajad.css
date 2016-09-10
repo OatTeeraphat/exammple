@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'CsPraJad';
+    src: url('../fonts/CSPraJad-webfont.eot');
+    src: url('../fonts/CSPraJad-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CSPraJad-webfont.woff2') format('woff2'),
+         url('../fonts/CSPraJad-webfont.woff') format('woff'),
+         url('../fonts/CSPraJad-webfont.ttf') format('truetype'),
+         url('../fonts/CSPraJad-webfont.svg#cs_prajadregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 22px !important;
+}

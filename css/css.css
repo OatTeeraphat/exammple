@@ -1,0 +1,149 @@
+.body{
+}
+.container{
+  font-family: 'Raleway','Kanit','CsPraJad', Helvetica, sans-serif;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 850px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 850px;
+  }
+}
+
+.feed__nav{	margin: 10px;color: #434343 !important;}
+.feed__nav img {height:35px; margin: 5px 0 15px 10px;}
+.navbar-default .navbar-brand { font-weight: 700; font-size: 20px; color: #434343;}
+.navbar-default { background: transparent; }
+.navbar-nav > li > a { padding: 15px; }
+
+.feed__post {width:auto; background:#fff; padding: 20px 80px; border: 1px solid #e5e5e5; margin-bottom: 15px;    box-shadow: 0 1px 4px rgba(0,0,0,.06);}
+.feed__post h1 {font-size: 20px; font-weight: 600; margin-bottom:10px; }
+.feed__post h1 span {font-size: 15px; font-weight: 300;}
+.feed__post--desc {font-size: 15px; font-weight: 200;}
+
+.feed__post--art {height: 220px; margin: 10px 0 30px;}
+.art__sub {height: 100%;width: 150px;margin-right:14px;position:relative;float:left;}
+.art__sub--name {text-align: center; font-weight:600;text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);}
+.art__sub--desc {position: absolute; bottom: 0; width: 80%; text-align: center; color:#fff; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);}
+.art__sub--timeRead {position: absolute; bottom: -20px; right: 0; font-size: 11px !important;}
+
+.pub__listbox { width:100%; background:#fff; padding: 35px; border: 1px solid #e5e5e5; margin: 0 15px 30px 0; position: relative;}
+.pub__listbox img { width:100%; border: 1px solid #999999 padding:2px; }
+.pub__listbox h3 { font-weight: 600; }
+.pub__listbox p { font-weight: 200; font-size: 13px;  margin: 5px 0 30px;}
+.pub__listbox button { width: 100%; height: 30px; font-size: 13px; background: #e6e6e6 }
+
+.content__cover {background-color:#f7d60e; }
+.content__cover--nav { background-color:#f7d60e;}
+.content__cover--nav ul {padding: 15px 15px 0 15px;}
+.content__cover--nav li :hover, .content__cover--nav li :focus {box-shadow: inset 0 -2px 0 0 #434343; background: transparent !important; font-weight: 600; }
+.content__cover--band { margin:5px 0 0 12.5px; }
+.content__cover--band img {width:56px; border:1px solid #e0e0e0; border-radius:3px; position:relative; float:left;}
+.content__cover--band h3 {position:relative; float:left; margin-left:10px; font-weight:600;}
+.content__desktop .container { padding:0;  height: 500px; }
+
+.nav__fix-on-top { position: fixed; top: -10px;  width: 100%; z-index: 100; -webkit-transition: top 2s; clear: both;}
+.nav__config-fix-on-top {margin-top: 60px;}
+
+.content__area { width:auto; background: #fff; border: 1px solid #e5e5e5; margin:10px 0; padding: 30px 0; margin: 10px 0;}
+.content__area--cover { width: 100%; }
+.content__area--Name { font-size: 36px; font-weight: 500; text-align: center;font-family: Kanit;}
+.content__area--pubDesc { text-align: center; font-size: 16px; font-weight: 200; padding: 0 80px; line-height: 20px; }
+.content__area--Created { font-size: 12px; text-align: center; font-family: kanit; font-weight: 300; color: #434343; margin-bottom:15px; }
+.content__area--Created span { font-weight: 400; font-size: 14px;}
+.content__area--content { }
+.content__area--content .wide-full-content { width: 100%;  margin: 30px 0 30px;}
+.content__area--content p{ font-family:'Raleway','CSPraJad' ;font-size: 16px; font-weight: 200; padding: 15px 65px; line-height: 22px;letter-spacing: 0.2px;}
+.content__area--content quote p{ width: 100%; padding: 15px 80px 5px; font-family:Kanit; font-size:28px; font-weight:300; font-style:italic; line-height:1.5;  text-align:center;  color:#262626; }
+.content__area--embed {float: none; clear: both; width: 100%; position: relative; padding-bottom: 56.25%;  margin: 25px 0 ; height: 0;}
+.content__area--embed iframe {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+.content__area--btn { width: 100%; padding: 30px 80px; }
+.content__area--btn button { width: 100%; background: #e6e6e6 }
+
+.content__writer { width: 100%; height: 100px; padding: 0 65px; }
+.content__writer--profile { height: 100px; padding: 12px; border: 1px solid #979797; border-radius: 3px; float: left; padding-right:0;  }
+.content__writer--profile img { width: 25%; border-radius: 3px; border: 1px solid #979797; float: left; }
+.content__writer--profile_desc { width: 75%; position: relative; float: left;  padding:0 10px;}
+.content__writer--profile_desc h4,p { margin: 3px 3px; font-size: 11px; line-height: 13px; }
+.content__writer--profile_desc span { font-size: 15px; font-weight: 600; }
+.content__footer > .feed__post { padding: 20px 65px; }
+
+.content-list__cover{ background: #fff; border: 1px solid #e5e5e5; border-top: 0; padding-bottom: 20px; margin-bottom: 10px;}
+.content-list__cover--cover { height: 360px;  }
+.content-list__cover--pubCover { width: 100%; height: 310px; position: relative; float: left;}
+.content-list__cover--pubCover img{ width:150px; position: absolute; float: left; margin: 220px auto 0; left: 0; right: 0;}
+.content-list__cover--Name {  text-align: center;font-weight: 600;}
+.content-list__cover--pubDesc {  text-align: center;font-size: 16px;font-weight: 200;line-height: 20px;padding: 0 80px;}
+.content-list__area { width:auto; background: #fff; border: 1px solid #e5e5e5; margin:10px 0; padding: 30px 0; margin: 10px 0;}
+
+.content-list__art { height: 230px; padding: 12px; border: 1px solid #e5e5e5; margin: 10px 0; background: #fff;}
+.content-list__art .art__sub { width: 130px; height: 190px; border-radius: 8px; float: left; }
+.content-list__art--desc { width: 59%; position: relative; float: left;  padding:0 10px; height: 76.5%}
+.content-list__art--desc span,p { margin: 3px 3px; font-size: 11px; line-height: 13px; }
+.content-list__art--desc h3 { font-size: 20px; font-weight: 400; font-family: kanit; }
+.content-list__art--btn  { width: 59%; position: relative; float: left; }
+.content-list__art--btn button { width:100%;background: #e6e6e6; }
+
+
+@media screen and (max-width: 768px) {
+  .feed__post {width:auto; background:#fff;padding: 0; border: 1px solid #e5e5e5;}
+  .feed__post h1 {font-size: 22px;font-weight: 600;margin-bottom:15px;padding: 0 27.5px;}
+  .feed__post h1 span {font-size: 18px; font-weight: 300;}
+  .feed__post--desc {font-size: 14px;font-weight: 200;padding: 0 25px;margin-bottom:-25px;line-height: 15px;font-family: 'Raleway','CSPraJad';letter-spacing: 0.2px;}
+  .feed__post--art {}
+  .art__sub {height: 185px;width: 115px;position:relative;float:left;border-radius: 10px;margin-left:15px;}
+  .art__sub--name {text-align: center; font-weight:600;text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);font-size: 18px;}
+  .art__sub--desc {position: absolute; bottom: 0; width: 80%; text-align: center; color:#fff; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);font-size: 13px;}
+  .art__sub--timeRead {position: absolute; bottom: -27px; right: 0;font-size: 11px !important;}
+  .feed__post--art .mobile {padding: 0px -15px}
+
+  .content__cover--img { width: 100%; height: 100%;}
+  .content__cover--nav { background: #fff; }
+  .content__cover--nav .navbar-left { float: left; height: 60px; width: 25%; padding: 5px; font-size: 30px; line-height: -5px; }
+  .content__cover--nav .navbar-left span { font-size: 16px;}
+  .content__cover--nav .navbar-right { float: right; width: 75%;}
+  .content__cover--nav .navbar-right a { font-size: 45px; padding: 0; margin-right:10px; float: right;}
+  .content__cover--nav li :hover, .content__cover--nav li :focus {box-shadow: none; background: transparent !important; font-weight: 400 !important; }
+
+  .content__area { width:auto; background: #fff; border: 0; margin:0; padding: 10px 0; margin: 0;}
+  .content__area--ArtName { font-size: 30px; font-weight: 500; text-align: center;font-family: Kanit; }
+  .content__area--ArtCreated { margin: 0; }
+  .content > .container-fluid { padding:0;}
+  .content__responsive--band { width: 100%; text-align: center;background: #f7d60e;}
+  .content__responsive--band h3 { margin: 0; padding: 10px; font-size: 18px; font-family: Raleway;font-weight: 600; color: #fff;}
+  .content__area--content p { padding: 15px 15px; font-size: 16px; font-weight: 200; line-height: 20px; text-align: justify-all; margin: 0;}
+  .content__area--content quote p{ width: 100%; padding: 0px 15px 15px; font-family:Kanit; font-size:24px; font-weight:300; font-style:italic; line-height:1.5;  text-align:center;  color:#262626; }
+  .content__area--btn { width: 100%; padding: 30px 15px; }
+  .content__writer--profile { height: 100px; width: 100% ; margin-bottom: 10px;  }
+  .content__writer--profile img { max-width: 75px; }
+  .content__writer { height: 230px; padding:0 ; }
+  .content__writer > .col-md-6 { width: 100% important;}
+  .content__footer > .feed__post { padding: 0; }
+  .responsive__control--container { padding: 0; }
+}
+/* iphone 6 & Nexus 5x 6p */
+@media screen and (max-width: 400px) {
+  .feed__post--art {height: 200px; bottom : 0;}
+  .art__sub {height: 165px;width:100px;position:relative;float:left;border-radius: 10px; padding:0 5px;  }
+  .art__sub--name {text-align: center; font-weight::;text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);font-size: 18px;}
+  .art__sub--desc {position: absolute; bottom: 0; text-align: center; width:90%; color:#fff; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);font-size: 12px;}
+  .art__sub--timeRead {position: absolute; bottom: -20px; right: 0;font-size: 11px !important;}
+}
+/* iphone 4&5 */
+@media screen and (max-width: 322px) {
+  .feed__post--art {height: 200px;}
+  .art__sub {height: 140px;width:85px;border-radius: 10px; margin-left:15px;padding:0;}
+  .art__sub--name {text-align: center; font-weight:600;text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);font-size: 16px;}
+  .art__sub--desc {position: absolute;bottom: 0;width: 100%;text-align: center;color:#fff;text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);font-size: 13px;}
+  .art__sub--timeRead {position: absolute; bottom: -27px; right: 0;font-size: 11px !important;}
+}
+
+
+
+
